@@ -4,8 +4,8 @@ Date: 12/16/19
 Program: Guess my Number
 """
 
-"""
-MyNumber = 3
+
+MyNumber = 4
 
 print("\nGuess a number between One & Ten.\n")
 
@@ -23,7 +23,7 @@ while guess != MyNumber:
     guess = int(input("\nEnter another Guess : "))
 
 print("\nCorrect! Good job.\n")
-"""
+
 
 """
 Programmer: Kamil Allishaw
