@@ -1,17 +1,20 @@
 """
 Programmer: Kamil Allishaw
 Date: 1/6/20
-Program:
+Program: Running Total
+
+This program asks the user for 5 numbers and then sums them
 """
 
+z = 0
 
+for j in range(5):
+    d = int(input("\nEnter a number: "))
+    z = z + d
 
+print("\nYou sum is: " + str(z))
 
-
-
-
-
-
+print("Use a calculator next time nerde")
 
 
 
