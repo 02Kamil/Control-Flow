@@ -1,20 +1,21 @@
 """
 Programmer: Kamil Allishaw
 Date: 1/6/20
-Program: Running Total
+Program: Running Total. PART II
 
 This program asks the user for 5 numbers and then sums them
 """
 
 z = 0
+r = int(input("\nHow many numbers would you like to add together?: "))
 
-for j in range(5):
+for j in range(r):
     d = int(input("\nEnter a number: "))
     z = z + d
 
 print("\nYou sum is: " + str(z))
 
-print("Use a calculator next time nerde")
+print("\nUse a calculator next time maybe?")
 
 
 
