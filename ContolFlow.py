@@ -17,14 +17,21 @@ print("\nYou sum is: " + str(z))
 
 print("\nUse a calculator next time maybe?")
 
+"""
+Programmer: Kamil Allishaw
+Date: 1/6/20
+Program: Average Test Scores
+"""
 
+T = 0
 
+N = int(input("How many tests do you wish to average?: "))
 
+For i in range(N): 
+    s = int(input("Test score: "))
+    T = T + s
 
-
-
-
-
+print("The Average across the scores is: " + str(T))
 
 
 
