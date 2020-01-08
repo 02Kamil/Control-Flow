@@ -30,8 +30,10 @@ N = int(input("How many tests do you wish to average?: "))
 For i in range(N): 
     s = int(input("Test score: "))
     T = T + s
-
-print("The Average across the scores is: " + str(T))
+    
+a = T / N
+    
+print("The Average across the scores is: " + str(a))
 
 
 
