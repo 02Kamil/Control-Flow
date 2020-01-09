@@ -15,7 +15,7 @@ for j in range(r):
 
 print("\nYou sum is: " + str(z))
 
-print("\nUse a calculator next time maybe?")
+print("Use a calculator next time maybe?")
 
 """
 Programmer: Kamil Allishaw
@@ -25,15 +25,15 @@ Program: Average Test Scores
 
 T = 0
 
-N = int(input("How many tests do you wish to average?: "))
+n = int(input("\nHow many tests do you wish to average?: "))
 
-For i in range(N): 
-    s = int(input("Test score: "))
+for i in range(n):
+    s = float(input("\nTest score: "))
     T = T + s
     
-a = T / N
+a = T / n
     
-print("The Average across the scores is: " + str(a))
+print("\nThe Average across the scores is: " + str(round(a, 3)))
 
 
 
