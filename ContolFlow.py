@@ -1,76 +1,39 @@
 """
 Programmer: Kamil Allishaw
-Date: 12/16/19
-Program: Guess my Number
+Date: 1/6/20
+Program: Running Total. PART II
+
+This program asks the user for 5 numbers and then sums them
 """
 
+z = 0
+r = int(input("\nHow many numbers would you like to add together?: "))
 
-MyNumber = 4
+for j in range(r):
+    d = int(input("\nEnter a number: "))
+    z = z + d
 
-print("\nGuess a number between One & Ten.\n")
+print("\nYou sum is: " + str(z))
 
-#ASk users to guess
-
-guess = int(input("Enter a Guess : "))
-
-#Keep asking users to guess number until correct
-
-while guess != MyNumber:
-    if guess == 69:
-        print("\nNice. Try again though.")
-    else:
-        print("\nNot Quite. Try Again!")
-    guess = int(input("\nEnter another Guess : "))
-
-print("\nCorrect! Good job.\n")
-
+print("Use a calculator next time maybe?")
 
 """
 Programmer: Kamil Allishaw
-Date: 12/19/19
-Program: One through Ten
+Date: 1/6/20
+Program: Average Test Scores
 """
 
-x = 1
+T = 0
 
-#While Loop will see if a condition has been met
+n = int(input("\nHow many tests do you wish to average?: "))
 
-while x <= 10:
-    print(x)
-    x+=1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for i in range(n):
+    s = float(input("\nTest score: "))
+    T = T + s
+    
+a = T / n
+    
+print("\nThe Average across the scores is: " + str(round(a, 3)))
 
 
 
