@@ -1,8 +1,8 @@
-"""
-Programmer: Kamil Allishaw
-Date: 12/16/19
-Program: Guess my Number
-"""
+
+#Programmer: Kamil Allishaw
+#Date: 12/16/19
+#Program: Guess my Number
+
 
 
 MyNumber = 4
@@ -25,11 +25,11 @@ while guess != MyNumber:
 print("\nCorrect! Good job.\n")
 
 
-"""
-Programmer: Kamil Allishaw
-Date: 12/19/19
-Program: One through Ten
-"""
+
+#Programmer: Kamil Allishaw
+#Date: 12/19/19
+#Program: One through Ten
+
 
 x = 1
 
