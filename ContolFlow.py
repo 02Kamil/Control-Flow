@@ -1,176 +1,28 @@
-"""
-Programmer: Kamil Allishaw
-Date: 1/6/20
-Program: Running Total. PART II
+
+#Programmer: Kamil Allishaw
+#Date: 12/16/19
+#Program: Guess my Number
+
+MyNumber = 4
+
+print("\nGuess a number between One & Ten.\n")
+
+#ASk users to guess
+>>>>>>> Development
 
 This program asks the user for 5 numbers and then sums them
-"""
 
-z = 0
-r = int(input("\nHow many numbers would you like to add together?: "))
+#Programmer: Kamil Allishaw
+#Date: 12/19/19
+#Program: One through Ten
 
-for j in range(r):
-    d = int(input("\nEnter a number: "))
-    z = z + d
+x = 1
 
-print("\nYou sum is: " + str(z))
+# While Loop will see if a condition has been met
 
-print("Use a calculator next time maybe?")
-
-"""
-Programmer: Kamil Allishaw
-Date: 1/6/20
-Program: Average Test Scores
-"""
-
-T = 0
-
-n = int(input("\nHow many tests do you wish to average?: "))
-
-for i in range(n):
-    s = float(input("\nTest score: "))
-    T = T + s
-    
-a = T / n
-    
-print("\nThe Average across the scores is: " + str(round(a, 3)))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+while x <= 10:
+    print(x)
+    x += 1
 
 
 
