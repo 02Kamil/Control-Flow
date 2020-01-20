@@ -71,38 +71,7 @@ for i in range(n):
 
 a = T / n
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 print("\nThe Average across the scores is: " + str(round(a, 3)))
->>>>>>> Development
+
 
 
