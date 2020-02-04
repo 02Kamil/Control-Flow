@@ -32,6 +32,11 @@ def Print2N(x,y = 69):
 def PrintSum(x,y):
     print(x + y)
 
+# Print Multiple TImes
+def PrintMulti(string, times):
+    for i in range(times):
+        print(string)
+
 
 """
 greeting()
@@ -41,5 +46,7 @@ PrintN(18)
 PrintN(69)
 Print2N(7,3)
 Print2N(32)
-"""
 PrintSum(4,9)
+"""
+
+PrintMulti("ILCS",3)
