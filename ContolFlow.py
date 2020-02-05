@@ -37,16 +37,18 @@ def PrintMulti(string, times):
     for i in range(times):
         print(string)
 
-
-"""
+print("\n****Greetings Function****\n")
 greeting()
+print("\n****Print Something Function****\n")
 printSomething()
 print(x)
+print("\n****Print Number Function****\n")
 PrintN(18)
 PrintN(69)
+print("\n****Print 2 number Function****\n")
 Print2N(7,3)
 Print2N(32)
+print("\n****Print Sum Function****\n")
 PrintSum(4,9)
-"""
-
+print("\n****Multi Print Function****\n")
 PrintMulti("ILCS",3)
